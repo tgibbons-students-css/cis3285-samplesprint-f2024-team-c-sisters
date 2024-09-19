@@ -21,6 +21,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Create
         public ActionResult Create()
         {
+            //I am working on this- bamlak(part 2)
             //I am editing this code -Hunter Seabolt
             return View();
         }
@@ -44,6 +45,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Edit/5
         public ActionResult Edit(int id)
         {
+           // I am working on this - bamlak(part 2)
             return View();
         }
 
@@ -52,6 +54,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
+            //I am working on this- bamlak(part 2)
             try
             {
                 return RedirectToAction(nameof(Index));

@@ -13,6 +13,7 @@
 
         public string Name
         {
+            //I am working on this- bamlak(part 2)
             get;
             private set;
         }
