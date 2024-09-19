@@ -4,6 +4,7 @@
     {
         public MessageRecord(int roomID, string authorName, string text)
         {
+            //I am editing this code -Hunter Seabolt
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
@@ -23,6 +24,7 @@
 
         public string AuthorName
         {
+            //I am editing this code -Hunter Seabolt
             get;
             private set;
         }
