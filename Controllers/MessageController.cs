@@ -14,6 +14,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Details/5
         public ActionResult Details(int id)
         {
+            //I am editing this code -Hunter Seabolt (part 2)
             //I am editing this code -Hunter Seabolt
             return View();
         }
@@ -21,6 +22,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Create
         public ActionResult Create()
         {
+            //I am editing this code -Hunter Seabolt (part 2)
             //I am editing this code -Hunter Seabolt
             return View();
         }

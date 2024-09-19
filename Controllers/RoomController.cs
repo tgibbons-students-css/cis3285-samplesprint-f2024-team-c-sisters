@@ -4,10 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
     public class RoomController : Controller
-    {//I am wor
+    {
         // GET: RoomController
         public ActionResult Index()
         {
+            //I am editing this code -Hunter Seabolt (part 2)
             return View();
         }
 
@@ -20,6 +21,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Create
         public ActionResult Create()
         {
+            //I am editing this code -Hunter Seabolt (part 2)
             return View();
         }
 
